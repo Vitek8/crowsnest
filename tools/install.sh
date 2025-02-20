@@ -121,7 +121,7 @@ import_config() {
         CROWSNEST_CONFIG_PATH="/home/${BASE_USER}/printer_data/config"
         CROWSNEST_LOG_PATH="/home/${BASE_USER}/printer_data/logs"
         CROWSNEST_ENV_PATH="/home/${BASE_USER}/printer_data/systemd"
-        CROWSNEST_USTREAMER_REPO_SHIP="https://github.com/pikvm/ustreamer.git"
+        CROWSNEST_USTREAMER_REPO_SHIP="git@github.com:pikvm/ustreamer.git"
         CROWSNEST_USTREAMER_REPO_BRANCH="master"
 
     fi
